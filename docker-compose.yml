@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  api:
+    build: .
+    hostname: cups
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    ports:
+      - 127.0.0.1:8631:631
