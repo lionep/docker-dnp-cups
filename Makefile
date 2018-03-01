@@ -1,5 +1,5 @@
 
-DOCKER_IMAGE := lionep/dns-cups
+DOCKER_IMAGE := lionep/dnp-cups
 IMAGE_VERSION := 1.0.0
 BASE_IMAGE := ubuntu:16.04
 
