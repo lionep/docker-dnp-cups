@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+MAINTAINER Lionel Penaud <lp@12.lc>
 
 RUN apt-get update && apt-get install -y \
     cups cups-bsd vim curl wget bzip2 alien at autotools-dev bsdmainutils cpio cron debhelper debugedit dh-strip-nondeterminism ed gettext gettext-base groff-base intltool-debian lib32z1 libarchive-zip-perl libarchive13 libasprintf-dev \
